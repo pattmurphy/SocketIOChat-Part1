@@ -1,5 +1,7 @@
 var express = require('express');
 var backend = require('./backend/app');
+const path = require('path');
+
 const Message = require("./backend/models/message");
 var Event = require("./backend/models/event");
 var app = express();
