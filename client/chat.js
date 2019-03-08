@@ -1,5 +1,5 @@
 //make connection
-var socket = io('http://localhost:3000');
+var socket = io(`${window.location.protocol}//${window.location.hostname}`);
 //socket.heartbeatTimeout = 20000;
 //Query DOM
 var message = document.getElementById("message");
